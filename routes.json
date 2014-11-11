@@ -1,0 +1,7 @@
+{
+  "layout": "layout.html",
+  "routes": [
+    ["GET", "/", "index.html", {} ]
+  ]
+}
+
