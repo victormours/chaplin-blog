@@ -1,7 +1,13 @@
 {
   "layout": "layout.html",
   "routes": [
-    ["GET", "/", "index.html", {} ]
+    ["GET", "/", "index.html", {
+      "articles": ["GET", "/articles.json"]
+    }],
+    ["GET", "/new", "new_article.html", {} ],
+    ["POST", "/create", "index.html", {
+      "new_article": ["POST", "/articles.json", "{\"content\": \"{{ content }}\"}" ]
+    }]
   ]
 }
 
