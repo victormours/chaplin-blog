@@ -4,9 +4,10 @@
     ["GET", "/", "index.html", {
       "articles": ["GET", "classes/article"]
     }],
+    ["GET", "/about", "about.html", {} ],
     ["GET", "/new", "new_article.html", {} ],
     ["POST", "/create", "index.html", {
-      "new_article": ["POST", "classes/article", "{\"content\": \"{{ content }}\"}" ]
+      "new_article": ["POST", "classes/article", "{\"content\": \"{{ content }}\", \"title\": \"{{ title }}\",}" ]
     }]
   ]
 }
