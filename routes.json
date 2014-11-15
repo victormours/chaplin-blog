@@ -2,11 +2,11 @@
   "layout": "layout.html",
   "routes": [
     ["GET", "/", "index.html", {
-      "articles": ["GET", "/articles.json"]
+      "articles": ["GET", "classes/article"]
     }],
     ["GET", "/new", "new_article.html", {} ],
     ["POST", "/create", "index.html", {
-      "new_article": ["POST", "/articles.json", "{\"content\": \"{{ content }}\"}" ]
+      "new_article": ["POST", "classes/article", "{\"content\": \"{{ content }}\"}" ]
     }]
   ]
 }
