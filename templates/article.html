@@ -1,1 +1,12 @@
-{{article}}
+{{#article}}
+
+  <h2>{{title}}</h2>
+  <p>{{content}}</p>
+
+{{/article}}
+{{^article.title}}
+
+  <p>Article not found</p>
+
+{{/article.title}}
+
