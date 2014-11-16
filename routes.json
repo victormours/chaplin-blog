@@ -4,6 +4,9 @@
     ["GET", "/", "index.html", {
       "articles": ["GET", "classes/article"]
     }],
+    ["GET", "/article/:article_id", "article.html", {
+      "article": ["GET", "classes/article/{{article_id}}"]
+    }],
     ["GET", "/about", "about.html", {} ],
     ["GET", "/new", "new_article.html", {} ],
     ["POST", "/create", "redirect /", [
