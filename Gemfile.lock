@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/victormours/chaplin.git
-  revision: 9a6b5ae9b34a0b4393c3923cde3dcab0c97dabaf
+  revision: ceb3b3e61a7b1ccc0013f983ab1edce9ba8bce08
   specs:
     chaplin (0.0.0)
       faraday
