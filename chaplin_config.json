@@ -1,8 +1,0 @@
-{
-  "api_url": "https://api.parse.com/1/",
-  "headers": {
-    "X-Parse-Application-Id": "fhmv8QvHOnC4gNUeLGGYo3RpPMLJca3FrFWYOwDp",
-    "X-Parse-REST-API-Key": "I4i1pSWwA5JvX6E7W7l2u9cIj5eOCnsiQFoWiW5w",
-    "Content-Type": "application/json"
-  }
-}
